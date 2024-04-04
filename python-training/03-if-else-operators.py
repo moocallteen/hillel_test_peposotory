@@ -4,16 +4,22 @@
 # number_less = int(input("Your number:"))
 # number_notEqual = int(input("Your number:"))
 
-# 12
-num1 = int(input("Your 1st number:"))
-num2 = int(input("Your 2nd number:"))
+# 13
+data = input("Type test:")
 
-if num1 == 5 and num2 != 5:
-    print("Success!")
-elif num1 == num2:
-    print("What a twist!")
-    if num1 and num2 < 5:
-        print("Try bigger numbers!")
+number = 5 if data == "test" else 0 # one string solution
+print(number)
+
+# 12
+# num1 = int(input("Your 1st number:"))
+# num2 = int(input("Your 2nd number:"))
+
+# if num1 == 5 and num2 != 5:
+#     print("Success!")
+# elif num1 == num2:
+#     print("What a twist!")
+#     if num1 and num2 < 5:
+#         print("Try bigger numbers!")
 
 
 # 11
